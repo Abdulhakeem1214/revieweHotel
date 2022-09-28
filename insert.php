@@ -2,7 +2,32 @@
 
     <html>
         <head>  <title>Insert Page page</title> </head> 
+        <style>
+.button {
+    height: 47px;
+    width: 170px;
+    border: 2px solid orange;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+body {
+    text-align: center;
+    border: 2px solid orange;
+    background: black;
+    color: white;
+}
+</style>
             <body>
+                <br>
         <?php
         $conn = mysqli_connect("localhost", "root", "", "wdp");
         // Check connection
@@ -38,7 +63,7 @@ echo "<h3>data stored in a database successfully Please browse your localhost ph
             <h1>view data form Database</h1>
             <form action="view.php" method="get">
                  
-    <p> <input type="Submit" value="view">
+    <p> <input class="button" type="submit" value="view">
                 </p>
             </form>
 
