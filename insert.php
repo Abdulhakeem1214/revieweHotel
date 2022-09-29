@@ -48,7 +48,7 @@ body {
         $sql = "INSERT INTO reviewss  VALUES ('$name','$phone','$email','$subject','$message')";
          
         if(mysqli_query($conn, $sql)){
-echo "<h3>data stored in a database successfully Please browse your localhost php my admin to view the updated data</h3>";
+echo "<h1>Data stored in a database successfully Please browse your localhost php my admin to view the updated data</h1>";
 
         //  echo nl2br("\n$first_name\n $last_name\n "
         //   . "$gender\n $address\n $email");

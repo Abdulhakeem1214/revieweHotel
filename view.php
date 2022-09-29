@@ -64,4 +64,16 @@ if ($res = mysqli_query($link, $sql)) {
     mysqli_close($link);
     
     ?>
+
+    <form action="edit.php">
+             
+    <p> <input type="Submit" value="Delete"> </p>
+
+    </form>
+    
+    <form action="index.html#review">
+    
+    <p> <input type="Submit" value="Add"> </p>
+    
+    </form>
     </html>
